@@ -1,6 +1,6 @@
 ---
 name: proconnect-commit
-description: Commit msg convention for ProConnect federation repo. Use when creating/amending a commit there.
+description: Commit msg + PR body convention for ProConnect federation repo. Use when creating/amending a commit or opening/editing a PR there.
 ---
 
 # ProConnect commits
@@ -28,6 +28,12 @@ EN, shortest possible:
 
 - No details diff already shows (option names, flags).
 - Wrap ~72 chars. Code/pkgs/apps in backticks.
+- No `Co-Authored-By: Claude` trailer (overrides default attribution).
+
+## PR
+
+- Title/body: same convention as commit.
+- No `🤖 Generated with Claude Code` footer (overrides default attribution).
 
 ## Example
 
